@@ -1,0 +1,18 @@
+# Created by python3 -m venv venv
+venv/
+.venv/
+
+# Bytecode from running Django
+__pycache__/
+*.py[cod]
+
+# Local config. Keep .env.example in git.
+.env
+.env.local
+
+# SQLite file if a database is added later
+db.sqlite3
+
+# Logs and macOS files
+*.log
+.DS_Store
